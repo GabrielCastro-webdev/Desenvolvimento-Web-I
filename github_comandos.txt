@@ -1,0 +1,5 @@
+git add .
+
+git commit -m "minha msg"
+
+git push origin main
