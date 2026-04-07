@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Caixas </title>
+    <style>
+        .caixa-principal{
+            width: 100px;
+            height: 100px;
+            border: 1px solid;
+            padding: 2px;
+        }
+        .caixa-azul{
+            background-color: rgb(84, 84, 241);
+        }
+
+        .caixa-cinza{
+            background-color: rgb(182, 182, 182);
+        }
+
+        .caixa-verde{
+            background-color: lime;
+        }
+
+        .caixa-vermelha{
+            background-color: red;
+        }
+
+        .display-flex{
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Display flex</h3>
+    <div class="display-flex">
+        <div class="caixa-azul caixa-principal">
+            <p>Caixa 1</p>
+        </div>
+
+        <div class="caixa-cinza caixa-principal">
+            <p>Caixa 2</p>
+        </div>
+
+        <div class="caixa-verde caixa-principal">
+            <p>Caixa 3</p>
+        </div>
+
+        <div class="caixa-vermelha caixa-principal"> 
+            <p>Caixa 4</p>
+        </div>
+    </div>
+</body>
+</html>
